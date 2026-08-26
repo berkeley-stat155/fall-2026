@@ -18,24 +18,37 @@
     "href": "staff.html",
     "title": "Course Staff",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nOffice hours are subject to change.\n\n\n\nInstructor:: Shobhana Murali Stoyanov   shobhana@berkeley.edu Office hours:  - Mondays 10 am - 12 pm, Evans 333  pronouns: she/her\n\n\nGSI: Chuao Dong   chuaodong@berkeley.edu Office hours: TBD  pronouns: she/her\n\n\nGSI: Thomas Lee   tholee@berkeley.edu Office hours: TBD  pronouns: he/him\n\n\nGSI: Tobias Roemer   tobias_roemer@berkeley.edu Office hours: TBD  pronouns: he/him\n\n\nTutor: Neha Suresh   neha_suresh@berkeley.edu pronouns: she/her\n\n\n\n\n\nReader: Jenny Gao    pronouns: she/her\n\n\nReader: Aurora Shi    pronouns: she/her"
+    "text": "[UNDER CONSTRUCTION]\nOffice hours are subject to change.\n\n\n\nInstructor:: Shobhana Murali Stoyanov   shobhana@berkeley.edu Office hours:  - Mondays 10 am - 12 pm, Evans 333  pronouns: she/her\n\n\nGSI: Thomas Lee   tholee@berkeley.edu Office hours: TBD  pronouns: he/him\n\n\nReader: Aurora Shi    pronouns: she/her",
+    "crumbs": [
+      "Staff"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Stat 155",
     "section": "",
-    "text": "This site is being updated for Fall 2026. Please check back soon.",
+    "text": "Ed\n\n  Gradescope\n\n  bCourses\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#coming-soon",
-    "href": "index.html#coming-soon",
+    "objectID": "index.html#welcome-to-stat-155",
+    "href": "index.html#welcome-to-stat-155",
     "title": "Stat 155",
-    "section": "",
-    "text": "This site is being updated for Fall 2026. Please check back soon.",
+    "section": "Welcome to Stat 155!",
+    "text": "Welcome to Stat 155!\n\n\n\n\n\n\nWarningIMPORTANT\n\n\n\nIf you need to be manually added to bcourses, please reach out to Thomas.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Stat 155",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n   Week 1\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           \n           \n           \n           Aug 26:\n           \n           \n              Lecture 1\n              \n                Overview and Introduction\n              \n              \n           \n           \n                \n           \n                \n           \n        \n   \n\n        \n\n           \n           \n           \n           \n           \n           Aug 28:\n           \n           \n              Lecture 2\n              \n                Combinatorial Games\n              \n              \n           \n           \n                \n           \n                \n           \n        \n   \n   \n   \nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -87,62 +100,79 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Lectures will meet on MWF from 2 - 3 pm in Evans 10. Your instructor is Shobhana Murali Stoyanov.\nLectures will cover core theory and concepts, with supporting data analysis examples. To get the full benefit of lecture, it is best to read the supporting material ahead of time. When slides or R code are shown in class, they will be posted online after class. However, lectures will not always have associated slides. I will not be posting recordings of the lectures, but if you have to miss class due to an emergency or unavoidable circumstance, the class notes and text should suffice. Please do come and see me so we can review what you have missed.\nLecture attendance will be measured using occasional quizzes. There will be roughly 8-10 of these handed out in lecture throughout the semester. You need to complete five of them to get the full attendance credit.\n\n\n\nThe sections meet once a week, on Tuesdays, for two hours. The individual section times will be listed in the course calendar. Section time will be spent working on practice problems. Since some problems will involve computing you should plan to always bring your laptop. You may attend a lab for which you are not enrolled (physical space permitting). Labs will not be recorded so attendance is strongly recommended.\nYour GSIs are Chuao Dong, Thomas Lee, and Toby Roemer.\n\n\n\nProf. Stoyanov and one of the GSIs will hold individual office hours each week. In addition, there will be group office hours in one of the 3rd floor classrooms in Evans, the room and hours TBA. You can go to these to get questions answered about homework or any concepts discussed in class, or help with your coding assignments."
+    "text": "Lectures will meet MWF at 2 pm in UAB 129. Your instructor is Shobhana Murali Stoyanov.\n\n\n\nThere are no mandatory sections. Thomas will hold homework help sessions.\nYour GSI is Thomas Lee.\n\n\n\nOffice hours and locations: TBA.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#logistics",
     "href": "syllabus.html#logistics",
     "title": "Syllabus",
     "section": "",
-    "text": "Lectures will meet on MWF from 2 - 3 pm in Evans 10. Your instructor is Shobhana Murali Stoyanov.\nLectures will cover core theory and concepts, with supporting data analysis examples. To get the full benefit of lecture, it is best to read the supporting material ahead of time. When slides or R code are shown in class, they will be posted online after class. However, lectures will not always have associated slides. I will not be posting recordings of the lectures, but if you have to miss class due to an emergency or unavoidable circumstance, the class notes and text should suffice. Please do come and see me so we can review what you have missed.\nLecture attendance will be measured using occasional quizzes. There will be roughly 8-10 of these handed out in lecture throughout the semester. You need to complete five of them to get the full attendance credit.\n\n\n\nThe sections meet once a week, on Tuesdays, for two hours. The individual section times will be listed in the course calendar. Section time will be spent working on practice problems. Since some problems will involve computing you should plan to always bring your laptop. You may attend a lab for which you are not enrolled (physical space permitting). Labs will not be recorded so attendance is strongly recommended.\nYour GSIs are Chuao Dong, Thomas Lee, and Toby Roemer.\n\n\n\nProf. Stoyanov and one of the GSIs will hold individual office hours each week. In addition, there will be group office hours in one of the 3rd floor classrooms in Evans, the room and hours TBA. You can go to these to get questions answered about homework or any concepts discussed in class, or help with your coding assignments."
+    "text": "Lectures will meet MWF at 2 pm in UAB 129. Your instructor is Shobhana Murali Stoyanov.\n\n\n\nThere are no mandatory sections. Thomas will hold homework help sessions.\nYour GSI is Thomas Lee.\n\n\n\nOffice hours and locations: TBA.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
-    "objectID": "syllabus.html#stat-scholars-program",
-    "href": "syllabus.html#stat-scholars-program",
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
     "title": "Syllabus",
-    "section": "Stat Scholars Program",
-    "text": "Stat Scholars Program\nThe new Stat Scholars Program will be available to Stat 135 students to provide community, academic support, and more such as answers to your questions about the stat major, new directions in statistics, research being done in the stat department etc. Applications will be sent out soon, begin checking your mail next week."
+    "section": "Course Materials",
+    "text": "Course Materials\n\nTexts\nThe main text we will follow is Game Theory, Alive by Karlin and Peres, which is available online through the library.\nWe will refer to other texts including A Course in Game Theory by Thomas Ferguson, and Algorithmic Game Theory by Tim Roughgarden.\n\n\nTopics\nWe can think of the course as consisting of two parts. In the first part of the course, we analyze games, and in the second, we investigate mechanism design – or the design of the game itself. Below is a tentative list of topics we hope to cover this semester. The chapter numbers below are from the text by Karlin and Peres:\nPart I: Analyzing games\n\nCh. 1: Combinatorial games\nCh. 2: Zero-sum games (we may also cover some part of chapter 3)\nCh. 4: General-sum games, and 5.1: Proof of Nash’s theorem\nCh. 7: Evolutionary game theory and correlated equilibria\nCh. 8: The price of anarchy\n\nPart II: Designing games and mechanisms\n\nCh. 10: Stable matching (and kidney exchange)\nCh. 12: Cooperative games\nCh. 13: Social choice and voting\nCh. 14: Auctions\n\n\n\nPrerequisites\nUndergraduate linear algebra (Math 54 / Math 110 / Phys 89), real analysis and calculus (Math 16A,B or Math 104) and probability (Stat 134).",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#assessments",
     "href": "syllabus.html#assessments",
     "title": "Syllabus",
     "section": "Assessments",
-    "text": "Assessments\n\nHomework Assignments\nHomework assignments will be due roughly every week or so during the semester, starting in the second week. Homework will be posted to Gradescope usually by Friday, and will generally be due the following Friday at 11:59 pm. Homework will be a combination of analytical and computational exercises done “by hand” and data analysis using R. If you turn in your homework late, you will get half credit for homework that is up to 24 hours late (if you have not requested an extension), and no credit after that.\n\n\nQuizzes\nThere will be four 50-minute quizzes to test your understanding of homework and lecture. You will take the quizzes in the CBTF (Computer-Based Testing Facility) in 200 Sutardja Dai Hall. The dates of the quizzes are: Feb 12/13, Feb 26/27, Apr 9/10, and Apr 30/May 1. You will have to schedule your quiz during the given dates at the CBTF. We do not schedule your quiz for you. Note that DSP students will also take it in the CBTF and will get their extended time. We will drop your lowest quiz score, and you may retake at most one quiz, also in the CBTF, during the week following the original quiz dates. Dates for each retake will be announced later, and you will have to fill out a form to be registered for the retake.\n\n\nExams\nThere will be one midterm exam and the final exam.\n\nThe midterm exam will be a two hour exam which will be held in the evening from 7-9 pm on Wednesday, March 11 in VLSB 2050.\nThe final exam time and day are Tuesday, May 12, 11:30 am - 2:30 pm (group 6). If you do not take the final exam, you will not pass the class.\n\n\n\nExtra Credit Opportunities\nExtra credit is assigned at the end of the semester after the grade bins have been determined. Ways to get extra credit (it will be added to your overall course percentage):\n\nDiagnostic test: 0.25% for submission with some clear attempt at solving the questions.\nEdStem: The top 5 student answerers will get up to 0.5% extra credit.\n\n\n\nAttendance Quizzes\nAs stated above, there will be 8-10 attendance quizzes handed out in lecture throughout the semester. These will be graded on completion, and you will need to complete five of them to get all the attendance points.\n\n\nOverall Score\nYour letter grade for the course will be based a weighted average of your assessments, as follows:\n\nHomework (each assignment weighted equally, drop two lowest): 15%\nQuizzes: 15% (equally weighted, drop lowest)\nMidterm: 25% (can be clobbered by the final)\nFinal exam: 40% or 65% (if higher than the midterm)\nAttendance quizzes: 5%\n\nRough grade bins: Students earning a course average of at least 88% are guaranteed to receive an A- or better, students earning a course average of at least 75% are guaranteed a B- or better, and students earning at least 60% on their course average are guaranteed at least a C-. These bins might move down, depending on how the class does."
-  },
-  {
-    "objectID": "syllabus.html#important-sites-to-bookmark",
-    "href": "syllabus.html#important-sites-to-bookmark",
-    "title": "Syllabus",
-    "section": "Important sites to bookmark",
-    "text": "Important sites to bookmark\n\nR Datahub\nAll coding in this class will be done in R. You may download the desktop version of RStudio if you wish, but it might be easier to use the datahub. It is up to you. Just make sure you have the latest version of R and RStudio, if you would like to download it to your laptop.\n\n\nBcourses\nImportant coursewide announcements will be sent out on bcourses.\n\n\nEd Discussion\nI have created a Ed discussion page for this course, which you can access through the link in bCourses (so you will be logged in). This is an online forum to ask questions to fellow students and answer other students’ questions. The GSIs and I will have access to the forum and may endorse or occasionally answer questions but this is primarily a forum for students to help each other – if you need an instructor or GSI’s assistance please attend office hours. Extra credit of up to 0.5% on the final course score will be awarded to the five students who have responded to the most questions on Ed by the end of the semester (with reasonable attempts at answering the questions).\n\n\nCBTF\nThis semester, you will be taking your quizzes in the Computer-Based Testing Facility in Sutardja Dai Hall. In order to take the test, you will have to log into the course site using your Calnet ID. I will post a practice quiz so that you can get the hang of how to do the scheduling etc. Meanwhile, take a look at the page “CBTF Getting Started for Students”.\n\n\nGradescope\nHomework assignments, take-home exams, and regrade requests (see Policies section below) will be submitted through Gradescope, which you can also access through the link in bCourses (you should not add yourself to Gradescope, as the roster has already been uploaded). You can view your grades here, as I will not be creating assignments on bCourses.\n\n\nFlextensions\nYou can request extensions of up to two days for up to two homework assignments, using this page, once assignments have been posted on Gradescope. You must make the request before the due date. If you have DSP accommodations, please send us a private message on Ed."
+    "text": "Assessments\n\nHomework\nHomework will be due roughly every week, barring midterm weeks. It will be graded on completion, and submitted homeworks will be worth 5% of your grade. You may request extensions of up to two days for up to two homework assignments, using this page, once assignments have been posted on Gradescope. You must make the request before the due date. If you have DSP accommodations, please send us a private message on Ed.\n\n\nHomework Oral Review\nThis semester, I will meet with each of you about 3 times during the semester. You will form groups of 4 members – you can choose your own groups. Each week, I will meet with five groups and you will present one of the homework problems that you have recently turned in. Each of you will be graded out of 5 points, and the group as a whole is graded out of 5 points. For example, say 3 members of the group present the problem well, and are able to explain their solution, but one member is not able to, the group points will be affected. This is easily avoided by discussing the homework. The homework oral review will be worth 15% of your grade.\n\n\nExams\nThere will be two in-class midterms, and a final exam. The dates will be:\n\nMidterm 1: October 2\nMidterm 2: November 6\n\nThe final exam will be from 3-6 pm on Thursday, December 17th.\nEach midterm is worth 20% and the final exam worth 40% of your grade.\n\n\nOverall Score\nYour letter grade for the course will be based on a weighted average of your assessments, as follows:\n\nHomework: 5%\nHomework Oral Review: 15%\nMidterm 1: 20%\nMidterm 2: 20%\nFinal exam: 40%",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#academic-honesty-policy",
     "href": "syllabus.html#academic-honesty-policy",
     "title": "Syllabus",
     "section": "Academic Honesty Policy",
-    "text": "Academic Honesty Policy\nThe student community at UC Berkeley has adopted the following Honor Code: “As a member of the UC Berkeley community, I act with honesty, integrity, and respect for others.”.\nMy expectation is that you will adhere to this code. Beyond the importance of respecting your fellow students, acting with integrity in completing course assignments helps ensure that they achieve their purpose, which is to help you learn and develop valuable statistical understanding and skills. Homework must be done independently. If you get stuck or want to explore alternative approaches, feel free to discuss issues with students or course staff at the homework parties or on Ed. You may ask an AI tool for help understanding a concept, or figuring out a coding error (but note that the answers are not always correct), but putting assignment questions into an AI tool and then copying and pasting/paraphrasing the answers will be considered plagiarism. It is also completely negates the purpose of the homework, which is to cement and internalize concepts from the course. It will not serve you for the exam either, when you have to tackle the problems on your own. I leave it to you to decide how much you would like to use genAI tools, but please use them with caution."
+    "text": "Academic Honesty Policy\nThe student community at UC Berkeley has adopted the following Honor Code: “As a member of the UC Berkeley community, I act with honesty, integrity, and respect for others.”.\nMy expectation is that you will adhere to this code. Beyond the importance of respecting your fellow students, acting with integrity in completing course assignments helps ensure that they achieve their purpose, which is to help you learn. There will be no electronic devices allowed during exams. Homework must be done independently. If you get stuck or want to explore alternative approaches, feel free to discuss the homework with your colleagues or Thomas. You may use GenAI tools to help you understand a concept (but beware, and remember to interrogate it since we all know that genAI can confidently give you plausible but incorrect answers), but putting assignment questions into an AI tool and then copying and pasting/paraphrasing the answers will be considered plagiarism. It also completely negates the purpose of the homework, which is to cement and internalize concepts from the course. It will not serve you for the oral review nor the exams, when you have to tackle the problems on your own. I leave it to you to decide how much you would like to use genAI tools, but please use them with caution.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#emailed-policy",
     "href": "syllabus.html#emailed-policy",
     "title": "Syllabus",
     "section": "Email/Ed policy",
-    "text": "Email/Ed policy\nIf you have a question for us, the fastest way to get a response is to post the question on Ed. If it deals with private matters, please make it a private post. If you are not comfortable writing a private post, come and see me. You can drop into office hours or make an appointment, either is fine."
+    "text": "Email/Ed policy\nIf you have a question for us, the fastest way to get a response is to post the question on Ed. If it deals with private matters, please make it a private post. If you are not comfortable writing a private post, come and see me. You can drop into office hours or make an appointment, either is fine.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#inclusivity-and-accommodation",
     "href": "syllabus.html#inclusivity-and-accommodation",
     "title": "Syllabus",
     "section": "Inclusivity and Accommodation",
-    "text": "Inclusivity and Accommodation\nMy hope is to establish a learning environment in this course that welcomes diversity of thought, perspective, and experience, and to be respectful of your individual identity as a student. I am happy to use your preferred name and/or personal pronoun. If you feel uncomfortable as a result of anything that is said in class, or if you feel that your performance in the course is being impacted by experiences outside of class, please do not hesitate to reach out to me about your concerns. If you are uncomfortable being called on during class, just let me know.\nIn addition, if you need accommodations for any physical, psychological, or learning disability, please speak to me after class or during office hours. Please note that you must make arrangements in a timely manner through DSP so that I can make the appropriate accommodations."
+    "text": "Inclusivity and Accommodation\nMy hope is to establish a learning environment in this course that welcomes diversity of thought, perspective, and experience, and to be respectful of your individual identity as a student. I am happy to use your preferred name and/or personal pronoun. If you feel uncomfortable as a result of anything that is said in class, or if you feel that your performance in the course is being impacted by experiences outside of class, please do not hesitate to reach out to me about your concerns. If you are uncomfortable being called on during class, just let me know.\nIn addition, if you need accommodations for any physical, psychological, or learning disability, please speak to me after class or during office hours. Please note that you must make arrangements in a timely manner through DSP so that I can make the appropriate accommodations.",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#possibility-of-revisions-to-course-policies",
     "href": "syllabus.html#possibility-of-revisions-to-course-policies",
     "title": "Syllabus",
     "section": "Possibility of revisions to course policies",
-    "text": "Possibility of revisions to course policies\nAll course policies, including assessment, are subject to change during the course of the semester in response to unforeseen events including, but not limited to, campus shutdowns due to various reasons, power outages, forest fires, and medical emergencies among members of the course staff."
+    "text": "Possibility of revisions to course policies\nAll course policies, including assessment, are subject to change during the course of the semester in response to unforeseen events including, but not limited to, campus shutdowns due to various reasons, power outages, forest fires, and medical emergencies among members of the course staff.",
+    "crumbs": [
+      "Syllabus"
+    ]
   }
 ]
