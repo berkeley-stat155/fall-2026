@@ -8,5 +8,11 @@ button {
     border-radius: 4px;
 }
 
+.staff-photo {
+    width: 2.5in;
+    height: 2.5in;
+    object-fit: cover;
+    object-position: center;
+}
 
 
