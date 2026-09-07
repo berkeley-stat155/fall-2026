@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-09-02">
+<meta name="dcterms.date" content="2026-08-26">
 
-<title>Lecture 4: Game Graphs, Normal Play, and N/P Positions</title>
+<title>Lecture 1: Overview and Introduction</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -124,7 +124,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/lecture-4.html">Lecture 4: Game Graphs, Normal Play, and N/P Positions</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lecture 1: Overview and Introduction</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -185,7 +185,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lectures/lecture-1.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/lecture-1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lecture 1: Overview and Introduction</span></a>
   </div>
 </li>
@@ -197,7 +197,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lectures/lecture-4.html" class="sidebar-item-text sidebar-link active">
+  <a href="../lectures/lecture-4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lecture 4: Game Graphs, Normal Play, and N/P Positions</span></a>
   </div>
 </li>
@@ -213,20 +213,28 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#game-representation" id="toc-game-representation" class="nav-link active" data-scroll-target="#game-representation">Game representation</a></li>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course overview</a></li>
+  <li><a href="#course-details" id="toc-course-details" class="nav-link" data-scroll-target="#course-details">Course details</a></li>
+  <li><a href="#combinatorial-games" id="toc-combinatorial-games" class="nav-link" data-scroll-target="#combinatorial-games">Combinatorial games</a></li>
+  <li><a href="#definition-of-a-combinatorial-game" id="toc-definition-of-a-combinatorial-game" class="nav-link" data-scroll-target="#definition-of-a-combinatorial-game">Definition of a combinatorial game</a></li>
+  <li><a href="#progressively-bounded-games" id="toc-progressively-bounded-games" class="nav-link" data-scroll-target="#progressively-bounded-games">Progressively bounded games</a></li>
+  <li><a href="#in-class-games-and-examples" id="toc-in-class-games-and-examples" class="nav-link" data-scroll-target="#in-class-games-and-examples">In-class games and examples</a>
+  <ul class="collapse">
+  <li><a href="#nimble" id="toc-nimble" class="nav-link" data-scroll-target="#nimble">Nimble</a></li>
+  <li><a href="#nim" id="toc-nim" class="nav-link" data-scroll-target="#nim">Nim</a></li>
+  <li><a href="#the-grade-game" id="toc-the-grade-game" class="nav-link" data-scroll-target="#the-grade-game">The grade game</a></li>
+  <li><a href="#subtraction-game" id="toc-subtraction-game" class="nav-link" data-scroll-target="#subtraction-game">Subtraction game</a></li>
+  </ul></li>
   <li><a href="#n--and-p-positions" id="toc-n--and-p-positions" class="nav-link" data-scroll-target="#n--and-p-positions">N- and P-positions</a></li>
-  <li><a href="#theorem" id="toc-theorem" class="nav-link" data-scroll-target="#theorem">Theorem</a></li>
-  <li><a href="#proof-by-induction" id="toc-proof-by-induction" class="nav-link" data-scroll-target="#proof-by-induction">Proof by induction</a></li>
-  <li><a href="#key-recursion" id="toc-key-recursion" class="nav-link" data-scroll-target="#key-recursion">Key recursion</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/lecture-4.html">Lecture 4: Game Graphs, Normal Play, and N/P Positions</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/lecture-1.html">Lecture 1: Overview and Introduction</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Lecture 4: Game Graphs, Normal Play, and N/P Positions</h1>
+<h1 class="title">Lecture 1: Overview and Introduction</h1>
 </div>
 
 
@@ -237,7 +245,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 2, 2026</p>
+      <p class="date">August 26, 2026</p>
     </div>
   </div>
   
@@ -249,59 +257,142 @@ window.Quarto = {
 </header>
 
 
-<section id="game-representation" class="level2">
-<h2 class="anchored" data-anchor-id="game-representation">Game representation</h2>
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course overview</h2>
+<p>Game theory studies situations of conflict and cooperation in which two or more players interact. This course develops mathematical models of games and their applications in economics, business, politics, and evolutionary biology before moving on to mechanism design.</p>
+<p>The course is organized around three broad areas:</p>
 <ul>
-<li>A game can be represented by a directed graph:
-<ul>
-<li>Positions → nodes</li>
-<li>Legal moves → directed edges</li>
-<li>Terminal positions → nodes with no outgoing edges</li>
-</ul></li>
-<li>A strategy assigns a legal move to every nonterminal position.</li>
-<li>Under normal play, the player who makes the last move—moving to a terminal position—wins.</li>
-<li>The board describes the progressively bounded setting as an acyclic game graph, so every play eventually terminates.</li>
+<li><strong>Combinatorial game theory:</strong> Nim, Chomp, and related games.</li>
+<li><strong>Classical game theory:</strong> zero-sum games, general-sum games, evolutionary game theory, and correlated equilibria.</li>
+<li><strong>Mechanism design:</strong> cooperative games, social choice and voting, stable matching, and auctions.</li>
 </ul>
+</section>
+<section id="course-details" class="level2">
+<h2 class="anchored" data-anchor-id="course-details">Course details</h2>
+<ul>
+<li><strong>Meeting time and location:</strong> Monday, Wednesday, and Friday at 2:00 PM in UAB 129.</li>
+<li><strong>Instructor:</strong> Shobhana Murali Stoyanov (<code>shobhana@berkeley.edu</code>).</li>
+<li><strong>GSI:</strong> Thomas Lee (<code>tholee@berkeley.edu</code>).</li>
+<li><strong>Office hours:</strong> To be announced.</li>
+<li><strong>Ed policy:</strong> Post general questions publicly for the fastest response; use a private post for personal matters.</li>
+<li><strong>Text:</strong> <em>Game Theory, Alive</em> by Anna Karlin and Yuval Peres.</li>
+</ul>
+<p>The course components are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Weekly homework</td>
+<td style="text-align: right;">5%</td>
+</tr>
+<tr class="even">
+<td>Homework oral review</td>
+<td style="text-align: right;">15%</td>
+</tr>
+<tr class="odd">
+<td>Midterm 1</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr class="even">
+<td>Midterm 2</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr class="odd">
+<td>Final exam</td>
+<td style="text-align: right;">40%</td>
+</tr>
+</tbody>
+</table>
+<p>The two in-class midterms are scheduled for October 2 and November 6.</p>
+</section>
+<section id="combinatorial-games" class="level2">
+<h2 class="anchored" data-anchor-id="combinatorial-games">Combinatorial games</h2>
+<p>The course begins with combinatorial games. Important distinctions include:</p>
+<ul>
+<li><strong>Randomness:</strong> Poker involves randomness; chess does not. The course focuses on games without randomness.</li>
+<li><strong>Information:</strong> Nim has complete information; Battleship has incomplete information.</li>
+<li><strong>Player symmetry:</strong> Nim is impartial, whereas Hex is partisan.</li>
+</ul>
+<p>The main setting studied here consists of two-player games with no randomness and perfect information. Outcomes are wins or losses; draws are excluded. Under normal play, the last player to move wins, and play cannot continue indefinitely.</p>
+</section>
+<section id="definition-of-a-combinatorial-game" class="level2">
+<h2 class="anchored" data-anchor-id="definition-of-a-combinatorial-game">Definition of a combinatorial game</h2>
+<p>A combinatorial game is specified by:</p>
+<ol type="1">
+<li>Two players.</li>
+<li>A set of possible positions.</li>
+<li>Rules specifying which moves are legal from one position to another.</li>
+<li>Whether the game is <strong>impartial</strong> or <strong>partisan</strong>. In an impartial game, the legal moves and winning positions are the same for both players; otherwise, the game is partisan.</li>
+<li>A terminal position: a position from which the player whose turn is next cannot move.</li>
+<li>A play convention:
+<ul>
+<li>Under <strong>normal play</strong>, the last player to move wins.</li>
+<li>Under <strong>misère play</strong>, the last player to move loses.</li>
+</ul></li>
+<li>A finite ending condition: the game must end after finitely many moves, so there are no draws.</li>
+</ol>
+</section>
+<section id="progressively-bounded-games" class="level2">
+<h2 class="anchored" data-anchor-id="progressively-bounded-games">Progressively bounded games</h2>
+<p>Let <span class="math inline">\(X\)</span> be the set of positions. A combinatorial game is <strong>progressively bounded</strong> if every starting position <span class="math inline">\(x\in X\)</span> has a finite bound on the number of moves before the game terminates.</p>
+<p>If <span class="math inline">\(B(x)\)</span> denotes the maximum number of moves before the game ends when starting from <span class="math inline">\(x\)</span>, then</p>
+<p>[ B(x)&lt;xX. ]</p>
+<p>Represent the game by a directed graph whose vertices are positions and whose directed edge <span class="math inline">\(x\to y\)</span> represents a legal move from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>. In the setting considered here, the graph is finite and has no cycles.</p>
+<p>A <strong>progressively bounded impartial combinatorial game (PBICG)</strong> has the same set of legal moves for both players, is played under normal play, and has no draws.</p>
+</section>
+<section id="in-class-games-and-examples" class="level2">
+<h2 class="anchored" data-anchor-id="in-class-games-and-examples">In-class games and examples</h2>
+<section id="nimble" class="level3">
+<h3 class="anchored" data-anchor-id="nimble">Nimble</h3>
+<p>Nimble is played on a strip with coins. A move consists of moving one coin to the left; a coin may also be moved off the strip. The last player to move a coin wins, so a player with no legal move loses.</p>
+<p>One setup places one coin on the first square, two coins on the third square, and one coin on each square to the right of the third. A second setup places a coin on each of squares 1, 2, and 3. The strategic question is whether the two setups suggest a common winning method.</p>
+</section>
+<section id="nim" class="level3">
+<h3 class="anchored" data-anchor-id="nim">Nim</h3>
+<p>In the misère version used in the introduction, a player chooses a pile and removes any positive number of chips from it. The player who removes the last chip loses. Comparing Nimble with Nim motivates the search for strategies in combinatorial games.</p>
+</section>
+<section id="the-grade-game" class="level3">
+<h3 class="anchored" data-anchor-id="the-grade-game">The grade game</h3>
+<p>Each player chooses either <span class="math inline">\(\alpha\)</span> or <span class="math inline">\(\beta\)</span>, and the choices are paired anonymously. The resulting grades are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Your choice</th>
+<th>Partner chooses <span class="math inline">\(\alpha\)</span></th>
+<th>Partner chooses <span class="math inline">\(\beta\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\alpha\)</span></td>
+<td>Both receive <span class="math inline">\(B-\)</span></td>
+<td>You receive <span class="math inline">\(A\)</span>; partner receives <span class="math inline">\(C\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\beta\)</span></td>
+<td>You receive <span class="math inline">\(C\)</span>; partner receives <span class="math inline">\(A\)</span></td>
+<td>Both receive <span class="math inline">\(B+\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>This game illustrates that each player’s outcome depends on both players’ choices.</p>
+</section>
+<section id="subtraction-game" class="level3">
+<h3 class="anchored" data-anchor-id="subtraction-game">Subtraction game</h3>
+<p>The first subtraction-game example starts with a pile of <span class="math inline">\(n\)</span> chips. The subtraction set is</p>
+<p>[ S={1,2,3}. ]</p>
+<p>Players take turns removing 1, 2, or 3 chips. The game is progressively bounded because the number of chips decreases on every move. To analyze it, work backward from the terminal position and classify positions according to which player can force a win.</p>
+</section>
 </section>
 <section id="n--and-p-positions" class="level2">
 <h2 class="anchored" data-anchor-id="n--and-p-positions">N- and P-positions</h2>
-<ul>
-<li><strong>N-position:</strong> The next player can force a win. Equivalently, there is a move to a P-position.</li>
-<li><strong>P-position:</strong> The previous player can force a win. Equivalently, every legal move leads to an N-position.</li>
-<li>Every position is classified as either N or P.</li>
-</ul>
-</section>
-<section id="theorem" class="level2">
-<h2 class="anchored" data-anchor-id="theorem">Theorem</h2>
-<p>For a progressively bounded two-player game under normal play,</p>
-<p>[ X = N P, ]</p>
-<p>where <span class="math inline">\(X\)</span> is the set of all positions.</p>
-</section>
-<section id="proof-by-induction" class="level2">
-<h2 class="anchored" data-anchor-id="proof-by-induction">Proof by induction</h2>
-<p>Define</p>
-<p>[ B(x)=x. ]</p>
-<p>We prove the claim by induction on <span class="math inline">\(n\)</span>.</p>
-<ol type="1">
-<li><p><strong>Inductive hypothesis:</strong> Every position <span class="math inline">\(x\)</span> with <span class="math inline">\(B(x)\le n\)</span> belongs to <span class="math inline">\(N\cup P\)</span>.</p></li>
-<li><p><strong>Base case:</strong> If <span class="math inline">\(B(x)=0\)</span>, then <span class="math inline">\(x\)</span> is terminal. Therefore,</p>
-<p>[ xP. ]</p></li>
-<li><p><strong>Inductive step:</strong> Suppose <span class="math inline">\(B(x)=n+1\)</span>. Every follower <span class="math inline">\(y\in F(x)\)</span> satisfies <span class="math inline">\(B(y)\le n\)</span>, so by the inductive hypothesis each follower is in <span class="math inline">\(N\cup P\)</span>.</p>
-<ul>
-<li>If there exists a follower <span class="math inline">\(y\in P\)</span>, then <span class="math inline">\(x\in N\)</span>, because the next player can move to <span class="math inline">\(y\)</span>.</li>
-<li>Otherwise, every follower <span class="math inline">\(y\in F(x)\)</span> is in <span class="math inline">\(N\)</span>. Therefore <span class="math inline">\(x\in P\)</span>.</li>
-</ul></li>
-</ol>
-<p>Thus <span class="math inline">\(x\in N\cup P\)</span>, completing the induction.</p>
-</section>
-<section id="key-recursion" class="level2">
-<h2 class="anchored" data-anchor-id="key-recursion">Key recursion</h2>
-<ul>
-<li>Terminal position → P-position</li>
-<li>Any position with a move to P → N-position</li>
-<li>Any position whose moves all go to N → P-position</li>
-</ul>
-<p>This N/P framework is the foundation for analyzing Nim and Chomp.</p>
+<p>Let <span class="math inline">\(N\)</span> denote the set of positions from which the <strong>Next</strong> player can guarantee a win, assuming optimal play. Let <span class="math inline">\(P\)</span> denote the set of positions where the next player cannot win, so the <strong>Previous</strong> player has a guaranteed win.</p>
+<p>For the subtraction game with <span class="math inline">\(S=\{1,2,3\}\)</span>, the introductory exercise is to classify the positions when the initial pile has 10 chips, then use the results to conjecture a pattern.</p>
 
 
 </section>
