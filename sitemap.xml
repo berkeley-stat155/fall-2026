@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stat155.berkeley.edu/fall-2026/staff.html</loc>
-    <lastmod>2026-10-21T16:59:27.996Z</lastmod>
-  </url>
-  <url>
     <loc>https://stat155.berkeley.edu/fall-2026/skills/make-notes/SKILL.html</loc>
-    <lastmod>2026-10-21T16:59:27.996Z</lastmod>
+    <lastmod>2026-10-22T16:58:32.166Z</lastmod>
   </url>
   <url>
-    <loc>https://stat155.berkeley.edu/fall-2026/syllabus.html</loc>
-    <lastmod>2026-10-21T16:59:27.996Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat155.berkeley.edu/fall-2026/data.html</loc>
-    <lastmod>2026-10-21T16:59:27.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat155.berkeley.edu/fall-2026/license.html</loc>
-    <lastmod>2026-10-21T16:59:27.995Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat155.berkeley.edu/fall-2026/calendar.html</loc>
-    <lastmod>2026-10-21T16:59:27.977Z</lastmod>
+    <loc>https://stat155.berkeley.edu/fall-2026/staff.html</loc>
+    <lastmod>2026-10-22T16:58:32.166Z</lastmod>
   </url>
   <url>
     <loc>https://stat155.berkeley.edu/fall-2026/index.html</loc>
-    <lastmod>2026-10-21T16:59:27.984Z</lastmod>
+    <lastmod>2026-10-22T16:58:32.150Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat155.berkeley.edu/fall-2026/syllabus.html</loc>
+    <lastmod>2026-10-22T16:58:32.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat155.berkeley.edu/fall-2026/calendar.html</loc>
+    <lastmod>2026-10-22T16:58:32.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat155.berkeley.edu/fall-2026/license.html</loc>
+    <lastmod>2026-10-22T16:58:32.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stat155.berkeley.edu/fall-2026/data.html</loc>
+    <lastmod>2026-10-22T16:58:32.143Z</lastmod>
   </url>
 </urlset>
